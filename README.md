@@ -8,4 +8,4 @@ my day 2-4 progress.
 Pod lifecycle, single vs multi-container Pods
 Declarative management (YAML, kubectl apply)
 Deployment, ReplicaSet, desired state, self-healing //****{ arcitecture flow, play with kubernates notes, practical deployment and pod created. }****\\
-DOING NOT JUST COMPLETE, ACTUALLY DEVOPS MINDSET PREPARATION WITH PRACTICAL WORKING.
+DOING 'NOT JUST COMPLETE', ACTUALLY DEVOPS MINDSET PREPARATION WITH PRACTICAL WORKING.
