@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+
+metadata:
+  name: webkubdeployment
+ 
+spec:
+  replicas: 2
+  selector:
+   matchLabels:
+    app: webp
+  template:
+   metadata:
+    labels:
+     app: webp
+   spec:
+    containers:
+    - name: webcont
+      image: mahmad29rbq/webproject:v1
+      ports:
+      - containerPort: 80

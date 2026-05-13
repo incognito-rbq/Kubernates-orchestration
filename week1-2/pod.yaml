@@ -1,0 +1,14 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: webkubpod
+  labels:
+   app: webp
+spec:
+  containers:
+  - name: webcont
+    image: mahmad29rbq/webproject:v1
+    ports:
+    - containerPort: 80 
+  
